@@ -1,6 +1,11 @@
 .header{
-    font-weight: bold;
     color: red;
+    font-family: 'Rowdies', cursive;
+}
+
+.navbar{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rowdies', cursive;
 }
 
 .background-image {

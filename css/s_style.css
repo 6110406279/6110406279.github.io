@@ -1,10 +1,15 @@
 .col-sm{
-  font-weight: bold;
   color: red;
+  font-family: 'Rowdies', cursive;
+}
+
+.navbar{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Rowdies', cursive;
 }
 
 .table{
-  font-weight: bold;
+  font-family: 'Anton', sans-serif;
   color: wheat;
   text-align: center;
 }

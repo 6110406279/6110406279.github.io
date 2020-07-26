@@ -1,7 +1,13 @@
 .col-sm{
-    font-weight: bold;
-    color: blue;
+    color: red;
+    font-family: 'Rowdies', cursive;
 }
+
+.navbar{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rowdies', cursive;
+}
+
 .background-image {
     background-size: cover;
     position: fixed;
