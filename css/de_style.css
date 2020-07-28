@@ -8,6 +8,13 @@
     font-family: 'Rowdies', cursive;
 }
 
+.card{
+    color:orangered;
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
+}
+
 .background-image {
     background-size: cover;
     position: fixed;

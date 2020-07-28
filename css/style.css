@@ -1,7 +1,14 @@
-.col-sm{
+.header{
     text-align: center;
-    color: red;
+    color: white;
     font-family: 'Rowdies', cursive;
+}
+
+.card{
+    color:red;
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
 }
 
 .navbar{

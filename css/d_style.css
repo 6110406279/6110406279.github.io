@@ -1,11 +1,18 @@
 .header{
-    color: red;
+    color: white;
     font-family: 'Rowdies', cursive;
 }
 
 .navbar{
     font-family: 'Dancing Script', cursive;
     font-family: 'Rowdies', cursive;
+}
+
+.card{
+    color:orangered;
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
 }
 
 .background-image {
