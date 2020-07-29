@@ -10,13 +10,15 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/s_style.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Zetta&family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Zetta&family=Lobster&display=swap"
+    rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rowdies:wght@700&display=swap"
+    rel="stylesheet">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-    </style>
+  </style>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -36,46 +38,45 @@
   <div class="content">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><img
-              src="https://cdn.pixabay.com/photo/2015/08/19/02/27/restaurant-895428__340.png" width="64"
-              length="64" alt="..." class="img-thumbnail"></a>
+          src="https://cdn.pixabay.com/photo/2015/08/19/02/27/restaurant-895428__340.png" width="64" length="64"
+          alt="..." class="img-thumbnail"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Links
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="food_main.html">Food Main Page</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="food_page.html">Food Page</a>
-                      <a class="dropdown-item" href="drink_page.html">Drink Page</a>
-                      <a class="dropdown-item" href="dessert_page.html">Dessert Page</a>
-                  </div>
-              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Links
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="food_main.html">Food Main Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="food_page.html">Food Page</a>
+              <a class="dropdown-item" href="drink_page.html">Drink Page</a>
+              <a class="dropdown-item" href="dessert_page.html">Dessert Page</a>
+            </div>
+          </li>
 
-              <li class="nav-item active">
-                  <a class="nav-link" href="schedule.html">Schedule <span class="sr-only">(current)</span></a>
-              </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="schedule.html">Schedule <span class="sr-only">(current)</span></a>
+          </li>
 
-              <li class="nav-item active">
-                  <a class="nav-link" href="credits_page.html">Photos provided by <span
-                          class="sr-only">(current)</span></a>
-              </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="credits_page.html">Photos provided by <span class="sr-only">(current)</span></a>
+          </li>
 
 
-          </ul>
+        </ul>
       </div>
-  </nav>
+    </nav>
 
     <br />
     <div class="container">
@@ -106,49 +107,96 @@
         </tr>
       </thead>
       <tbody>
+        <!--Monday-->
         <tr>
-          <th scope="row">Monday</th>
-          <td colspan="6">01418497-60 Seminar</tb>
+          <th scope="row"><button id='daybtn1' type="button" onclick="day1()"
+              value="01418497-60 Seminar">Monday</button></th>
+          <td colspan="6"><button id='coursebtn1' type="button" onclick="course1()"
+              value="Day: Monday | Time: 08:00-11:00 | Section: 3 | Professor: ชาคริต วัชโรภาส, ศิริกร จันทร์นวล">01418497-60
+              Seminar</button></tb>
           <td colspan="14"></td>
         </tr>
+
+        <!--Tuesday-->
         <tr>
-          <th scope="row">Tuesday</th>
-          <td colspan="4">01418442-60 Webtech(Lecture)</td>
+          <th scope="row"><button id='daybtn2' type="button" onclick="day2()"
+              value="01418442-60 Webtech(Lecture) | 01418442-60 Webtech(Lab)">Tuesday</button></th>
+          <td colspan="4"><button id='coursebtn2' type="button" onclick="course2()"
+              value="Day: Tuesday | Time: 08:00-10:00 | Section: 1 | Professor: สุขุมาล กิติสิน">01418442-60
+              Webtech(Lecture)</button></td>
           <td colspan="5"></td>
-          <td colspan="4">01418442-60 Webtech(Lab)</td>
+          <td colspan="4"><button id='coursebtn3' type="button" onclick="course3()"
+              value="Day: Tuesday | Time: 10:00 - 11:30 | Section: 11 | Professor: สุขุมาล กิติสิน">01418442-60
+              Webtech(Lab)</td>
         </tr>
+
+        <!--Wednesday-->
         <tr>
-          <th scope="row">Wednesday</th>
+          <th scope="row"><button id='daybtn3' type="button" onclick="day3()"
+              value="01418341-60 IP | 01418331-60 OS | 01418321-60 SA(Lecture) | 01418321-60 SA(Lab)">Wednesday</button>
+          </th>
           <td colspan="4"></td>
-          <td colspan="3">01418341-60 IP</td>
+          <td colspan="3"><button id='coursebtn4' type="button" onclick="course4()"
+              value="Day: Wednesday, Friday | Time: 10:00 - 11:30 | Section: 1 | Professor: นวลวรรณ สุนทรภิษัช">01418341-60
+              IP</button></td>
           <td colspan="1"></td>
-          <td colspan="4">01418331-60 OS</td>
-          <td colspan="4">01418321-60 SA(Lecture)</td>
-          <td colspan="4">01418321-60 SA(Lab)</td>
+          <td colspan="4"><button id='coursebtn5' type="button" onclick="course5()"
+              value="Day: Wednesday, Friday | Time: 12:00 - 14:00 | Section: 1 | Professor: ศิริกร จันทร์นวล">01418331-60
+              OS</button></td>
+          <td colspan="4"><button id='coursebtn6' type="button" onclick="course6()"
+              value="Day: Wednesday | Time: 14:00 - 16:00 | Section: 1 | Professor: สมโชค เรืองอิทธินันท์">01418321-60
+              SA(Lecture)</button></td>
+          <td colspan="4"><button id='coursebtn7' type="button" onclick="course7()"
+              value="Day: Wednesday | Time: 16:00 - 18:00 | Section: 11 | Professor: สมโชค เรืองอิทธินันท์">01418321-60
+              SA(Lab)</button></td>
         </tr>
+
+        <!--Thursday-->
         <tr>
-          <th scope="row">Thursday</th>
-          <td colspan="4">01418471-60 SE(Lecture)</td>
+          <th scope="row"><button id='daybtn4' type="button" onclick="day4()"
+              value="01418471-60 SE(Lecture) | 01418471-60 SE(Lab)">Thursday</button></th>
+          <td colspan="4"><button id='coursebtn8' type="button" onclick="course8()"
+              value="Day: Thursday | Time: 08:00 - 10:00 | Section: 11 | Professor: อุษา สัมมาพันธ์">01418471-60
+              SE(Lab)</button></td>
           <td colspan="3"></td>
-          <td colspan="4">01418471-60 SE(Lab)</td>
+          <td colspan="4"><button id='coursebtn9' type="button" onclick="course9()"
+              value="Day: Thursday | Time: 11:00 - 13:00 | Section: 1 | Professor: อุษา สัมมาพันธ์">01418471-60
+              SE(Lecture)</button></td>
         </tr>
+
+        <!--Friday-->
         <tr>
-          <th scope="row">Friday</th>
+          <th scope="row"><button id='daybtn5' type="button" onclick="day5()"
+              value="01418341-60 IP | 01418331-60 OS | 01418344-60 Mobile">Friday</button></th>
           <td colspan="4"></td>
-          <td colspan="3">01418341-60 IP</td>
+          <td colspan="3"><button id='coursebtn4' type="button" onclick="course4()"
+              value="Day: Wednesday, Friday | Time: 10:00 - 11:30 | Section: 1 | Professor: นวลวรรณ สุนทรภิษัช">01418341-60
+              IP</button></td>
           <td colspan="1"></td>
-          <td colspan="4">01418331-60 OS</td>
+          <td colspan="4"><button id='coursebtn5' type="button" onclick="course5()"
+              value="Day: Wednesday, Friday | Time: 12:00 - 14:00 | Section: 1 | Professor: ศิริกร จันทร์นวล">01418331-60
+              OS</button></td>
           <td colspan="1"></td>
-          <td colspan="4">01418344-60 Mobile</td>
+          <td colspan="4"><button id='coursebtn10' type="button" onclick="course10()"
+              value="Day: Friday | Time: 14:30 - 17:30 | Section: 1 | Professor: วรเศรษฐ สุวรรณิก">01418344-60
+              Mobile</button></td>
           <td colspan="2"></td>
         </tr>
       </tbody>
     </table>
 
+    <br /><br />
+
+
+    <div class="output">
+      <div id="btnoutput">Press the days or the courses to learn more about them.</div>
+    </div>
+
+
+    <script src="schedule.js"></script>
+
 
   </div>
-
-
 </body>
 
 </html>
